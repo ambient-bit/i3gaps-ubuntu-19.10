@@ -28,5 +28,6 @@ bindsym Mod4+l exec /usr/bin/gnome-screensaver-command -l
 
 Although not necessary, I also set my background to grey with: 
 ```
-xsetroot -solid "#808080"
+cp /etc/X11/Xsession ~/.xinitrc
+echo 'xsetroot -solid "#808080"' >> ~/.xinitrc
 ```
